@@ -11,7 +11,6 @@
 #include <dbus-cxx/signal.h>
 #include <dbus-cxx/dbus-cxx-config.h>
 #include <dbus-cxx/property.h>
-#include <sigc++/sigc++.h>
 #include <set>
 #include <map>
 #include <mutex>

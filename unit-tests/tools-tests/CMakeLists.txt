@@ -1,6 +1,6 @@
 pkg_check_modules( dbus REQUIRED IMPORTED_TARGET dbus-1 )
 
-set( TEST_LINK dbus-cxx PkgConfig::dbus PkgConfig::sigc PkgConfig::expat ${LIBRT} )
+set( TEST_LINK dbus-cxx PkgConfig::dbus PkgConfig::expat ${LIBRT} )
 
 #
 # Add a test that generates code from the XML file and then compiles it

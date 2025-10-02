@@ -47,7 +47,7 @@ pkg_check_modules( sigc REQUIRED IMPORTED_TARGET sigc++-3.0 )
 find_package( dbus-cxx REQUIRED )
 find_package( Threads )
 
-target_link_libraries( exe dbus-cxx::dbus-cxx Threads::Threads PkgConfig::sigc )
+target_link_libraries( exe dbus-cxx::dbus-cxx Threads::Threads )
 ```
 
 Note that you need to use both pkg-config and the `find_package` directive,

@@ -11,7 +11,6 @@
 #include "connection.h"
 #include "methodproxybase.h"
 #include "objectproxy.h"
-#include <sigc++/sigc++.h>
 #include "signalproxy.h"
 #include <dbus-cxx/dbus-cxx-private.h>
 

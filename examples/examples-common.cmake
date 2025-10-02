@@ -1,6 +1,6 @@
 pkg_check_modules( dbus IMPORTED_TARGET dbus-1 )
 
-set( EXAMPLES_LINK dbus-cxx PkgConfig::sigc ${LIBRT} PkgConfig::dbus )
+set( EXAMPLES_LINK dbus-cxx ${LIBRT} PkgConfig::dbus )
 set( CMAKE_CXX_STANDARD 17 )
 
 link_directories( ${CMAKE_BINARY_DIR} )

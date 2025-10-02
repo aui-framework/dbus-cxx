@@ -7,7 +7,6 @@
 #ifndef CALCULATOR_H
 #define CALCULATOR_H
 
-#include <sigc++/sigc++.h>
 #include <string>
 #include <cstdint>
 

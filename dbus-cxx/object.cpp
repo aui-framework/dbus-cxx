@@ -16,7 +16,6 @@
 #include "interface.h"
 #include "message.h"
 #include "path.h"
-#include <sigc++/sigc++.h>
 #include "utility.h"
 
 static const char* LOGGER_NAME = "DBus.Object";

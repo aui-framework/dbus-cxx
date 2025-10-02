@@ -18,7 +18,6 @@
 #include <thread>
 #include <string>
 #include "enums.h"
-#include <sigc++/sigc++.h>
 
 #ifndef DBUSCXXOBJECT_H
 #define DBUSCXXOBJECT_H

@@ -8,7 +8,6 @@
 #include "pendingcall.h"
 #include "error.h"
 #include "message.h"
-#include <sigc++/sigc++.h>
 
 namespace DBus {
 

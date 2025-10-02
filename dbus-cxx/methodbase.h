@@ -24,7 +24,6 @@
 #include <vector>
 #include "enums.h"
 #include "error.h"
-#include <sigc++/sigc++.h>
 
 #ifndef DBUSCXX_METHODBASE_H
 #define DBUSCXX_METHODBASE_H

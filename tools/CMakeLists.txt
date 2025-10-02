@@ -9,7 +9,7 @@ endif( TOOLS_BUNDLED_CPPGENERATE )
 pkg_check_modules( dbus REQUIRED IMPORTED_TARGET dbus-1 )
 pkg_check_modules( popt REQUIRED IMPORTED_TARGET popt )
 
-set( TOOLS_LINK dbus-cxx PkgConfig::dbus PkgConfig::sigc PkgConfig::popt PkgConfig::expat ${LIBRT} )
+set( TOOLS_LINK dbus-cxx PkgConfig::dbus PkgConfig::popt PkgConfig::expat ${LIBRT} )
 
 link_directories( ${CMAKE_BINARY_DIR} )
 

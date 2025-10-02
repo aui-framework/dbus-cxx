@@ -15,7 +15,6 @@
 #include <string>
 #include <sstream>
 #include "messageappenditerator.h"
-#include <sigc++/sigc++.h>
 #include <future>
 
 #ifndef DBUSCXX_METHODPROXYBASE_H

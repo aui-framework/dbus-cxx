@@ -22,7 +22,6 @@
 #include "path.h"
 #include "pendingcall.h"
 #include "returnmessage.h"
-#include <sigc++/sigc++.h>
 #include "signalproxy.h"
 #include "transport.h"
 #include "simpletransport.h"

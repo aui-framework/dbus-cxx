@@ -19,7 +19,6 @@
 #include <string>
 #include <vector>
 #include "enums.h"
-#include <sigc++/sigc++.h>
 #include <future>
 #include <queue>
 

@@ -15,7 +15,7 @@
 pkg_check_modules( expat REQUIRED IMPORTED_TARGET expat )
 
 set( TEST_INCLUDES ${cppgenerate_INCLUDE_DIRS} )
-set( TEST_LINK dbus-cxx dbus-cxx-uv PkgConfig::libuv PkgConfig::sigc PkgConfig::expat ${LIBRT} )
+set( TEST_LINK dbus-cxx dbus-cxx-uv PkgConfig::libuv PkgConfig::expat ${LIBRT} )
 
 link_directories( ${CMAKE_BINARY_DIR} )
 

@@ -5,7 +5,6 @@
  *                                                                         *
  *   This file is part of the dbus-cxx library.                            *
  ***************************************************************************/
-#include <sigc++/sigc++.h>
 #include <memory>
 
 #ifndef DBUSCXX_PENDING_CALL_H

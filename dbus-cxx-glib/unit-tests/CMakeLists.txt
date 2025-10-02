@@ -16,7 +16,7 @@ pkg_check_modules( expat REQUIRED IMPORTED_TARGET expat )
 pkg_check_modules( popt REQUIRED IMPORTED_TARGET popt )
 
 set( TEST_INCLUDES ${cppgenerate_INCLUDE_DIRS} )
-set( TEST_LINK dbus-cxx dbus-cxx-glib PkgConfig::glib PkgConfig::sigc PkgConfig::popt PkgConfig::expat ${LIBRT} )
+set( TEST_LINK dbus-cxx dbus-cxx-glib PkgConfig::glib PkgConfig::popt PkgConfig::expat ${LIBRT} )
 
 link_directories( ${CMAKE_BINARY_DIR} )
 

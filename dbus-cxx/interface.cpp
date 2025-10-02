@@ -12,7 +12,6 @@
 #include "callmessage.h"
 #include "dbus-cxx-private.h"
 #include "methodbase.h"
-#include <sigc++/sigc++.h>
 #include "signalbase.h"
 #include "connection.h"
 

@@ -8,7 +8,6 @@
 #include <dbus-cxx/enums.h>
 #include <dbus-cxx/dbus-cxx-config.h>
 #include <dbus-cxx/variant.h>
-#include <sigc++/sigc++.h>
 #include <memory>
 
 #ifndef DBUSCXX_PROPERTYPROXY_H

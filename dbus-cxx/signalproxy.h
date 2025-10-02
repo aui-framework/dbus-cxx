@@ -17,7 +17,6 @@
 #include "headerlog.h"
 #include "messageiterator.h"
 #include "matchrule.h"
-#include <sigc++/sigc++.h>
 
 #ifndef DBUSCXX_SIGNALPROXYBASE_H
 #define DBUSCXX_SIGNALPROXYBASE_H

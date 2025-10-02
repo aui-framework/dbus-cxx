@@ -15,7 +15,6 @@
 #include <shared_mutex>
 #include <string>
 #include "path.h"
-#include <sigc++/sigc++.h>
 
 #ifndef DBUSCXX_OBJECTPROXY_H
 #define DBUSCXX_OBJECTPROXY_H

@@ -10,7 +10,6 @@
 #include "callmessage.h"
 #include "connection.h"
 #include "interfaceproxy.h"
-#include <sigc++/sigc++.h>
 #include "standard-interfaces/peerinterfaceproxy.h"
 #include "standard-interfaces/introspectableinterfaceproxy.h"
 #include "standard-interfaces/propertiesinterfaceproxy.h"

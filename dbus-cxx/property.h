@@ -10,7 +10,6 @@
 #include <dbus-cxx/variant.h>
 #include <dbus-cxx/signature.h>
 #include <dbus-cxx/utility.h>
-#include <sigc++/sigc++.h>
 #include <memory>
 #include <sstream>
 

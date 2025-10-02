@@ -7,7 +7,6 @@
 #ifndef COMPUTER_H
 #define COMPUTER_H
 
-#include <sigc++/sigc++.h>
 #include <string>
 #include <cstdint>
 

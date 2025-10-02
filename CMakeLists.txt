@@ -35,9 +35,6 @@ set( DBUS_CXX_INCLUDE_VERSION 2.0 )
 # version information
 set( PKG_VERSION ${dbus-cxx_VERSION} )
 
-# Our required dependencies: libsigc++ 3.0
-pkg_check_modules( sigc REQUIRED IMPORTED_TARGET sigc++-3.0 )
-
 #
 # Check our options
 #
@@ -239,7 +236,7 @@ include_directories( ${DBUS_CXX_INCLUDE_DIRECTORIES} )
 #
 set( THREADS_PREFER_PTHREAD_FLAG ON )
 find_package( Threads REQUIRED )
-set( DBUS_CXX_LIBRARIES PkgConfig::sigc Threads::Threads )
+set( DBUS_CXX_LIBRARIES Threads::Threads )
 
 find_library( LIBRT rt )
 if( LIBRT )
@@ -285,7 +282,6 @@ if( WIN32 )
     add_subdirectory( compat )
 endif( WIN32 )
 
-# Dbus-cxx requires at least C++17 due to libsigc++-3.0
 set_property( TARGET dbus-cxx PROPERTY CXX_STANDARD 17 )
 
 #
@@ -339,9 +335,6 @@ SET(PKG_CONFIG_LIBS
 )
 SET(PKG_CONFIG_CFLAGS
     "-I\${includedir}"
-)
-SET(PKG_CONFIG_REQUIRES
-    "sigc++-3.0"
 )
 
 CONFIGURE_FILE(

@@ -18,7 +18,6 @@
 #include <tuple>
 #include <typeinfo>
 #include <vector>
-#include <sigc++/sigc++.h>
 #include <chrono>
 #include <dbus-cxx/demangle.h>
 #include <dbus-cxx/multiplereturn.h>
